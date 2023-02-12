@@ -72,6 +72,10 @@ body {
                 font-weight: 600;
             }
         }
+        iframe {
+            border: 1px solid #3a3a3a;
+            border-radius: 8px;
+        }
     }
 }
 footer {
@@ -84,7 +88,8 @@ footer {
         gap: 10px;
         & a {
             text-decoration: none;
-            color: #3a3a3a;
+            color: #787878;
+            text-transform: uppercase;
             &:hover {
                 color: #c2000b;
             }
@@ -171,7 +176,7 @@ header {
 }
 //! Dark Mode
 body.dark_mode {
-    background: #111;
+    background: #1b1d22;
     color: #ededed;
     p {
         color: #bbb;
