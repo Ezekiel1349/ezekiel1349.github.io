@@ -16,5 +16,5 @@ jobs:
       with:
         server:     ftpupload.net
         username:   epiz_31597846
-        password:   ${{ secrets.FTP_PASSWORD }}
+        password:   ${{ FTP_PASSWORD }}
         server-dir: /htdocs
