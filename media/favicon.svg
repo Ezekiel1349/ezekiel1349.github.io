@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="126.726" height="126.726" viewBox="0 0 126.726 126.726">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_13" data-name="Trazado 13" d="M1983.377,229.475a63.363,63.363,0,1,1-63.363-63.363A63.362,63.362,0,0,1,1983.377,229.475Z" transform="translate(203.349 1301.888)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_2" data-name="Enmascarar grupo 2" transform="translate(-2060 -1468)" clip-path="url(#clip-path)">
+    <g id="Grupo_8" data-name="Grupo 8" transform="translate(0 -0.112)">
+      <path id="Trazado_11" data-name="Trazado 11" d="M1983.377,229.475a63.363,63.363,0,1,1-63.363-63.363A63.362,63.362,0,0,1,1983.377,229.475Z" transform="translate(203.349 1302)" fill="#300407"/>
+      <path id="Trazado_12" data-name="Trazado 12" d="M1983.377,229.475a63.363,63.363,0,1,1-63.363-63.363A63.362,63.362,0,0,1,1983.377,229.475Z" transform="translate(197.349 1295)" fill="#c2000b"/>
+    </g>
+  </g>
+</svg>
