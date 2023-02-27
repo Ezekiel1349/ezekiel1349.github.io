@@ -1,7 +1,7 @@
 on:
   push:
     branches:
-      - main
+      - master
 name: 🖥️ Enviado a "producción"
 jobs:
   web-deploy:
