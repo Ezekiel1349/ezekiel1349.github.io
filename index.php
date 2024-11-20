@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 	<head>
+      <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-EYRG621ZF3"></script>
 		<script>
 			window.dataLayer = window.dataLayer || [];
@@ -20,6 +21,7 @@
 		<link rel="icon" href="media/favicon.svg" sizes="192x192" />
 		<link rel="apple-touch-icon" href="media/favicon.svg" />
 		<link rel="stylesheet" href="css/bundle.min.css?v=0.1.6" />
+
 	</head>
 
 	<body>
