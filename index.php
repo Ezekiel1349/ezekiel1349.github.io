@@ -20,7 +20,7 @@
 		<link rel="icon" href="media/favicon.svg?v=2025" sizes="32x32" />
 		<link rel="icon" href="media/favicon.svg?v=2025" sizes="192x192" />
 		<link rel="apple-touch-icon" href="media/favicon.svg?v=2025" />
-		<link rel="stylesheet" href="css/bundle.min.css?v=0.1.6" />
+		<link rel="stylesheet" href="css/bundle.min.css?v=2025" />
 
 	</head>
 
