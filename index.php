@@ -17,9 +17,9 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Ezequiel Alonzo - Desarrollador Web</title>
-		<link rel="icon" href="media/favicon.svg" sizes="32x32" />
-		<link rel="icon" href="media/favicon.svg" sizes="192x192" />
-		<link rel="apple-touch-icon" href="media/favicon.svg" />
+		<link rel="icon" href="media/favicon.svg?v=2025" sizes="32x32" />
+		<link rel="icon" href="media/favicon.svg?v=2025" sizes="192x192" />
+		<link rel="apple-touch-icon" href="media/favicon.svg?v=2025" />
 		<link rel="stylesheet" href="css/bundle.min.css?v=0.1.6" />
 
 	</head>
@@ -30,7 +30,7 @@
 			<!-- <div class="ea_lang"><span class="switch"></span> EN</div> -->
 		</header>
 		<main>
-			<img src="media/logo.svg" class="ea_logus" />
+			<img src="media/logo.svg?v=2025" class="ea_logus" />
 			<h1>Autodidacta, Desarrollador web, Músico y catador de arepas profesional</h1>
 
 			<div class="ea_info_wrap">
