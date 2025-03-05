@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1245" height="5" viewBox="0 0 1245 5">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.399" y1="1" x2="-0.519" y2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#5abfa3"/>
-      <stop offset="1" stop-color="#324359"/>
-    </linearGradient>
-  </defs>
-  <rect id="mail_sep" width="1245" height="5" fill="url(#linear-gradient)"/>
-</svg>
