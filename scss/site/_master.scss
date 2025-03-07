@@ -1,11 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Sora:wght@100..800&display=swap');
 // font-family: "Big Shoulders", sans-serif;
 // font-family: "Sora", sans-serif;
-
-
 $title: 'Sora';
 $body: 'Sora';
-
 body {
    font-family: $body;
    font-size: 14px;
@@ -13,12 +9,10 @@ body {
    padding: 0 15px;
    background-image: url('../img/bg-grain.png');
    background-attachment: fixed;
-
    p {
       margin-bottom: 10px;
       color: #324359;
    }
-
    main {
       max-width: 1140px;
       margin: auto;
@@ -26,7 +20,6 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
-
       h1 {
          font-family: $title;
          font-size: clamp(28px, 3vw, 40px);
@@ -36,24 +29,21 @@ body {
          letter-spacing: -1px;
          color: #324359;
       }
-
       .ea_logus {
          max-width: 400px;
          margin-bottom: 40px;
       }
-
       .ea_info {
          border-radius: 8px;
          margin: 0 0 30px;
          width: fit-content;
          max-width: 520px;
-
          &_wrap {
             display: flex;
             justify-content: space-between;
+            align-items: flex-start;
             max-width: 1000px;
          }
-
          & h4 {
             letter-spacing: -1px;
             font-size: 24px;
@@ -62,45 +52,37 @@ body {
             font-family: $title;
             color: #324359;
          }
-
          & em {
             font-weight: 600;
          }
       }
-
       iframe {
          border: 1px solid #3a3a3a;
          border-radius: 12px;
       }
    }
 }
-
 footer {
    max-width: 1140px;
    margin: auto;
    border-top: 1px solid #e7e7e7;
    padding: 10px 0;
-
    & ul {
       display: flex;
       gap: 10px;
-
       & a {
          text-decoration: none;
          color: #787878;
          text-transform: uppercase;
-
          &:hover {
             color: #5abfa3;
          }
       }
-
       & span {
          color: #e7e7e7;
       }
    }
 }
-
 header {
    max-width: 1140px;
    margin: 0 auto 30px;
@@ -108,7 +90,6 @@ header {
    justify-content: flex-end;
    gap: 20px;
    padding: 10px 0;
-
    .ea_dark {
       font-size: 12px;
       display: flex;
@@ -117,7 +98,6 @@ header {
       cursor: pointer;
       line-height: 100%;
       gap: 6px;
-
       & .switch {
          background: #b9b9b9;
          width: 36px;
@@ -126,7 +106,6 @@ header {
          border-radius: 100px;
          position: relative;
          align-items: center;
-
          &:before {
             content: '';
             width: 16px;
@@ -138,16 +117,13 @@ header {
             transition: all 0.2s ease-in-out;
          }
       }
-
       &.active .switch {
          background: #5cb615;
-
          &:before {
             left: 18px;
          }
       }
    }
-
    .ea_lang {
       font-size: 12px;
       display: flex;
@@ -155,7 +131,6 @@ header {
       justify-content: center;
       cursor: pointer;
       gap: 6px;
-
       & .switch {
          background: #b9b9b9;
          width: 36px;
@@ -164,7 +139,6 @@ header {
          border-radius: 100px;
          position: relative;
          align-items: center;
-
          &:before {
             content: '';
             width: 16px;
@@ -176,17 +150,14 @@ header {
             transition: all 0.2s ease-in-out;
          }
       }
-
       &.active .switch {
          background: #5cb615;
-
          &:before {
             left: 18px;
          }
       }
    }
 }
-
 //! Dark Mode
 body.dark_mode {
    background: #1b1d22;
@@ -196,24 +167,20 @@ body.dark_mode {
    p {
       color: #fff;
    }
-
    main h1 {
       color: #5abfa3;
    }
    footer {
       border-color: #3c3c3c;
-
       & ul {
          & span {
             color: #3c3c3c
          }
-
          & a {
             color: #bbb;
          }
       }
    }
-
    .ea_logus {
       filter: invert(1) grayscale(1) brightness(100);
    }

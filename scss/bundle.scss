@@ -1,3 +1,5 @@
-@import 'site/reset';
-@import 'site/master';
-@import 'site/mobile';
+@use 'site/reset';
+@use 'site/master';
+@use 'site/mobile';
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Sora:wght@100..800&display=swap');
