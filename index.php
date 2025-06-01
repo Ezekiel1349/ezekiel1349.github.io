@@ -34,8 +34,7 @@
             <p>Especialista en <em>WordPress</em> / <em>Woocommerce</em></p>
             <p>He dejado huella en proyectos para clientes en más de 10 países, incluyendo EE.UU., España, El Salvador, Ecuador, Chile y México, principalmente como aliado estratégico de agencias. Mi enfoque es simple pero efectivo: construir sitios web que no solo se vean bien, sino que impulsen resultados reales para las empresas.
             </p>
-            <p>
-               ¿Buscas mejorar tu presencia online? ¡Conectemos!</p>
+            <p>¿Buscas mejorar tu presencia online? ¡Conectemos!</p>
          </div>
          <iframe
             src="https://spotify-recently-played-readme.vercel.app/api?user=id9zhabk3cqm8mz161qkor09n&unique=1&count=3&width=400"
