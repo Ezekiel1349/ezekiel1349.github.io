@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+   <?php include('vwo.php'); ?>
    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EYRG621ZF3"></script>
    <script>
