@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="183" height="183" viewBox="0 0 183 183">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_22" data-name="Rectángulo 22" width="183" height="183" transform="translate(-28 1109)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="f_favicon" transform="translate(28 -1109)" clip-path="url(#clip-path)">
+    <g id="f_logo" transform="translate(-11.776 1113.732)">
+      <g id="Grupo_17" data-name="Grupo 17" transform="translate(0 0)">
+        <path id="Trazado_26" data-name="Trazado 26" d="M-295,3466.922l.018-86.6L-219.953,3337l75.01,43.285-.018,86.6-24.495,14.143-17.786-30.807-32.718-56.67-25.632,44.4h36.431l7.908,13.7h-68.062l7.908-13.7,27.822-48.19,5.716-9.9h15.817l47.61,82.461,5.787-3.341.015-70.786-61.311-35.38-61.335,35.412-.015,70.786,61.31,35.38,32.563-18.8,6.848,11.861-39.409,22.751Z" transform="translate(295 -3337.001)" fill="#ed9347"/>
+        <path id="Trazado_23" data-name="Trazado 23" d="M0,4.535,7.872,0,.006,20.347Z" transform="translate(77.312 60.481) rotate(150)" fill="#cf8140"/>
+      </g>
+    </g>
+  </g>
+</svg>
