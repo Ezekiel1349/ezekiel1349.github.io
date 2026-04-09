@@ -1,2 +1,0 @@
-# Alonzo.dev
-Personal Page

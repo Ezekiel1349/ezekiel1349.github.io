@@ -1,0 +1,8 @@
+@media (max-width: 767px) {
+    .ea_info_wrap {
+        flex-direction: column;
+    }
+    iframe {
+        display: none;
+    }
+}
