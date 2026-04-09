@@ -1,7 +1,7 @@
 // font-family: "Big Shoulders", sans-serif;
 // font-family: "Sora", sans-serif;
-$title: 'Sora';
-$body: 'Sora';
+$title: 'Manrope', sans-serif;
+$body: 'Manrope', sans-serif;
 body {
    font-family: $body;
    font-size: 14px;
@@ -11,7 +11,7 @@ body {
    background-attachment: fixed;
    p {
       margin-bottom: 10px;
-      color: #324359;
+      color: #2C2D2A;
    }
    main {
       max-width: 1140px;
@@ -24,10 +24,10 @@ body {
          font-family: $title;
          font-size: clamp(28px, 3vw, 40px);
          margin-bottom: 30px;
-         font-weight: 600;
+         font-weight: 900;
          line-height: 90%;
-         letter-spacing: -1px;
-         color: #324359;
+         letter-spacing: -2px;
+         color: #2C2D2A;
       }
       .ea_logus {
          max-width: 400px;
@@ -48,9 +48,9 @@ body {
             letter-spacing: -1px;
             font-size: 24px;
             line-height: 150%;
-            font-weight: 600;
+            font-weight: 700;
             font-family: $title;
-            color: #324359;
+            color: #2C2D2A;
          }
          & em {
             font-weight: 600;
@@ -118,7 +118,7 @@ header {
          }
       }
       &.active .switch {
-         background: #5cb615;
+         background: #ED9347;
          &:before {
             left: 18px;
          }
@@ -151,7 +151,7 @@ header {
          }
       }
       &.active .switch {
-         background: #5cb615;
+         background: #ED9347;
          &:before {
             left: 18px;
          }
@@ -168,7 +168,7 @@ body.dark_mode {
       color: #fff;
    }
    main h1 {
-      color: #5abfa3;
+      color: #ED9347;
    }
    footer {
       border-color: #3c3c3c;
