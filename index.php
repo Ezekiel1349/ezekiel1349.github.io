@@ -15,10 +15,10 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <title>Ezequiel Alonzo - Desarrollador Web</title>
-   <link rel="icon" href="assets/img/favicon.svg?v=2025" sizes="32x32" />
-   <link rel="icon" href="assets/img/favicon.svg?v=2025" sizes="192x192" />
-   <link rel="apple-touch-icon" href="assets/img/favicon.svg?v=2025" />
-   <link rel="stylesheet" href="assets/css/bundle.min.css?v=2025.1" />
+   <link rel="icon" href="assets/img/f_favicon.svg" sizes="32x32" />
+   <link rel="icon" href="assets/img/f_favicon.svg" sizes="192x192" />
+   <link rel="apple-touch-icon" href="assets/img/f_favicon.svg" />
+   <link rel="stylesheet" href="assets/css/bundle.min.css?v=2025.2" />
 </head>
 <body>
    <header>
