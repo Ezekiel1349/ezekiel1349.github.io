@@ -1,4 +1,0 @@
-# Bloquear acceso directo al JSON y (si quieres) al reset
-<FilesMatch "^(opens\.json|reset\.php)$">
-  Require all denied
-</FilesMatch>
