@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <title>Buenas Noches</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="robots" content="noindex, nofollow">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+   <div class="container py-4">
+      <div class="row">
+         <div class="col-lg-6 mx-auto">
+            <!-- <img src="img/logo_n.png?v=1" class="d-block mx-auto img-fluid mb-3" style="max-width: 400px"> -->
+            <!-- TEMA ACTIVO -->
+            <h5 id="current-title" class="fw-bold mb-3 text-center">
+               Selecciona un tema
+            </h5>
+            <!-- REPRODUCTOR -->
+            <audio id="main-player" controls style="width:100%;" preload="metadata"></audio>
+            <!-- OPCIÓN DE LOOP -->
+            <div class="form-check mt-3">
+               <input class="form-check-input" type="checkbox" id="loop-toggle">
+               <label class="form-check-label" for="loop-toggle">
+                  🔁 Repetir toda la lista infinitamente
+               </label>
+            </div>
+            <!-- ORDENAR -->
+            <div class="btn-group mt-3 w-100" role="group">
+               <button type="button" class="btn btn-outline-secondary btn-sm" data-sort="artist">
+                  Por Artista
+               </button>
+               <button type="button" class="btn btn-outline-secondary btn-sm" data-sort="title">
+                  Por Título
+               </button>
+               <button type="button" class="btn btn-outline-secondary btn-sm" data-sort="album">
+                  Por Álbum
+               </button>
+            </div>
+            <!-- PLAYLIST -->
+            <ul class="list-group mt-4" id="playlist" style="height: calc(64dvh); overflow: auto; border: 1px solid #ccc; padding: 10px;">
+               <!-- Los items se cargarán dinámicamente con JavaScript -->
+            </ul>
+         </div>
+      </div>
+   </div>
+
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+   <script>
+      // PROTECCIÓN CON CONTRASEÑA - ⚠️ Cambia 'mimusica2026' por tu contraseña
+      (function() {
+         const CORRECT_PASSWORD = 'mimusica2026';
+
+         if (sessionStorage.getItem('authenticated') !== 'true') {
+            let password = prompt('🔒 Ingresa la contraseña para acceder:');
+
+            while (password !== CORRECT_PASSWORD) {
+               if (password === null) {
+                  document.body.innerHTML = '<h3 style="text-align:center; margin-top:50px;">Acceso denegado</h3>';
+                  throw new Error('Acceso denegado');
+               }
+               password = prompt('❌ Contraseña incorrecta. Intenta de nuevo:');
+            }
+
+            sessionStorage.setItem('authenticated', 'true');
+         }
+      })();
+   </script>
+   <script>
+      jQuery(function($) {
+         const player = $('#main-player')[0];
+         let currentIndex = -1;
+         let audioFiles = [];
+         let loopEnabled = false;
+         let currentSort = 'artist';
+
+         // Toggle de loop
+         $('#loop-toggle').on('change', function() {
+            loopEnabled = this.checked;
+            console.log('Loop infinito:', loopEnabled ? 'ACTIVADO' : 'DESACTIVADO');
+         });
+
+         // Botones de ordenamiento
+         $('[data-sort]').on('click', function() {
+            currentSort = $(this).data('sort');
+            $('[data-sort]').removeClass('active');
+            $(this).addClass('active');
+            sortAndRebuild();
+         });
+
+         // Cargar lista desde JSON generado automáticamente
+         function loadAudioFiles() {
+            $.getJSON('playlist.json', function(data) {
+               audioFiles = data;
+               $('[data-sort="artist"]').addClass('active');
+               buildPlaylist();
+            }).fail(function() {
+               console.error('Error al cargar playlist.json');
+            });
+         }
+
+         // Ordenar y reconstruir
+         function sortAndRebuild() {
+            audioFiles.sort((a, b) => {
+               switch(currentSort) {
+                  case 'artist':
+                     const artistCmp = a.artist.localeCompare(b.artist);
+                     return artistCmp !== 0 ? artistCmp : a.title.localeCompare(b.title);
+                  case 'title':
+                     return a.title.localeCompare(b.title);
+                  case 'album':
+                     const albumCmp = (a.album || 'ZZZ').localeCompare(b.album || 'ZZZ');
+                     return albumCmp !== 0 ? albumCmp : a.title.localeCompare(b.title);
+                  default:
+                     return 0;
+               }
+            });
+            buildPlaylist();
+         }
+
+         // Generar playlist dinámicamente
+         function buildPlaylist() {
+            const playlist = $('#playlist');
+            playlist.empty();
+
+            audioFiles.forEach((track, index) => {
+               const duration = track.duration ? formatDuration(track.duration) : '--:--';
+               const displayText = `${track.artist} - ${track.title}`;
+               const albumText = track.album ? `<small class="text-muted d-block">${track.album}</small>` : '';
+
+               const li = $(`
+                  <li class="list-group-item playlist-item" style="cursor:pointer"
+                      data-src="mp3/${track.filename}"
+                      data-artist="${track.artist}"
+                      data-title="${track.title}">
+                     <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                           <span>${displayText}</span>
+                           ${albumText}
+                        </div>
+                        <span class="badge bg-secondary">${duration}</span>
+                     </div>
+                  </li>
+               `);
+               playlist.append(li);
+            });
+
+            // Click en lista
+            $('.playlist-item').on('click', function() {
+               playTrack($('.playlist-item').index(this));
+            });
+         }
+
+         function formatDuration(seconds) {
+            const min = Math.floor(seconds / 60);
+            const sec = Math.floor(seconds % 60).toString().padStart(2, '0');
+            return `${min}:${sec}`;
+         }
+
+         function playTrack(index) {
+            const items = $('.playlist-item');
+            const item = items.eq(index);
+            if (!item.length) return;
+            currentIndex = index;
+            items.removeClass('active');
+            item.addClass('active');
+            const src = item.data('src');
+            const artist = item.data('artist');
+            const title = item.data('title');
+            $('#current-title').text(`${artist} - ${title}`);
+            player.pause();
+            player.src = src;
+            player.load();
+            player.play();
+         }
+
+         // Autoplay siguiente
+         player.addEventListener('ended', function() {
+            const next = currentIndex + 1;
+            const items = $('.playlist-item');
+            if (next < items.length) {
+               playTrack(next);
+            } else if (loopEnabled && items.length > 0) {
+               // Si el loop está activado, volver al inicio
+               playTrack(0);
+            }
+         });
+
+         // Inicializar
+         loadAudioFiles();
+      });
+   </script>
+</body>
+</html>

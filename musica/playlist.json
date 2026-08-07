@@ -1,0 +1,458 @@
+[
+  {
+    "filename": "06 - Alice In Chains - Angry Chair.mp3",
+    "artist": "Alice In Chains",
+    "title": "Angry Chair",
+    "album": "MTV Unplugged",
+    "year": 1996,
+    "duration": 276.29714285714283
+  },
+  {
+    "filename": "02 - Alice In Chains - Brother.mp3",
+    "artist": "Alice In Chains",
+    "title": "Brother",
+    "album": "MTV Unplugged",
+    "year": 1996,
+    "duration": 327.3142857142857
+  },
+  {
+    "filename": "05 - Alice In Chains - Down In A Hole.mp3",
+    "artist": "Alice In Chains",
+    "title": "Down In A Hole",
+    "album": "MTV Unplugged",
+    "year": 1996,
+    "duration": 346.174693877551
+  },
+  {
+    "filename": "11 - Alice In Chains - Frogs.mp3",
+    "artist": "Alice In Chains",
+    "title": "Frogs",
+    "album": "MTV Unplugged",
+    "year": 1996,
+    "duration": 450.1159183673469
+  },
+  {
+    "filename": "08 - Alice In Chains - Got Me Wrong.mp3",
+    "artist": "Alice In Chains",
+    "title": "Got Me Wrong",
+    "album": "MTV Unplugged",
+    "year": 1996,
+    "duration": 299.96408163265306
+  },
+  {
+    "filename": "09 - Alice In Chains - Heaven Beside You.mp3",
+    "artist": "Alice In Chains",
+    "title": "Heaven Beside You",
+    "album": "MTV Unplugged",
+    "year": 1996,
+    "duration": 337.9722448979592
+  },
+  {
+    "filename": "13 - Alice In Chains - Killer Is Me.mp3",
+    "artist": "Alice In Chains",
+    "title": "Killer Is Me",
+    "album": "MTV Unplugged",
+    "year": 1996,
+    "duration": 323.94448979591834
+  },
+  {
+    "filename": "03 - Alice In Chains - No Excuses.mp3",
+    "artist": "Alice In Chains",
+    "title": "No Excuses",
+    "album": "MTV Unplugged",
+    "year": 1996,
+    "duration": 297.4563265306123
+  },
+  {
+    "filename": "01 - Alice In Chains - Nutshell.mp3",
+    "artist": "Alice In Chains",
+    "title": "Nutshell",
+    "album": "MTV Unplugged",
+    "year": 1996,
+    "duration": 297.2995918367347
+  },
+  {
+    "filename": "12 - Alice In Chains - Over Now.mp3",
+    "artist": "Alice In Chains",
+    "title": "Over Now",
+    "album": "MTV Unplugged",
+    "year": 1996,
+    "duration": 432.58775510204083
+  },
+  {
+    "filename": "07 - Alice In Chains - Rooster.mp3",
+    "artist": "Alice In Chains",
+    "title": "Rooster",
+    "album": "MTV Unplugged",
+    "year": 1996,
+    "duration": 401.16244897959183
+  },
+  {
+    "filename": "04 - Alice In Chains - Sludge Factory.mp3",
+    "artist": "Alice In Chains",
+    "title": "Sludge Factory",
+    "album": "MTV Unplugged",
+    "year": 1996,
+    "duration": 276.7673469387755
+  },
+  {
+    "filename": "10 - Alice In Chains - Would_.mp3",
+    "artist": "Alice In Chains",
+    "title": "Would?",
+    "album": "MTV Unplugged",
+    "year": 1996,
+    "duration": 223.42530612244897
+  },
+  {
+    "filename": "Belong.mp3",
+    "artist": "Cynic",
+    "title": "Belong",
+    "album": "Portal Demo",
+    "year": 1995,
+    "duration": 264.9077551020408
+  },
+  {
+    "filename": "Circle.mp3",
+    "artist": "Cynic",
+    "title": "Circle",
+    "album": "Portal Demo",
+    "year": "1995",
+    "duration": 310.606589
+  },
+  {
+    "filename": "Cosmos.mp3",
+    "artist": "Cynic",
+    "title": "Cosmos",
+    "album": "Portal Demo",
+    "year": 1995,
+    "duration": 261.01551020408164
+  },
+  {
+    "filename": "Costumed In Grace.mp3",
+    "artist": "Cynic",
+    "title": "Costumed In Grace",
+    "album": "Portal Demo",
+    "year": "1995",
+    "duration": 264.474333
+  },
+  {
+    "filename": "Crawl Above.mp3",
+    "artist": "Cynic",
+    "title": "Crawl Above",
+    "album": "Portal Demo",
+    "year": "1995",
+    "duration": 271.083292
+  },
+  {
+    "filename": "Endless Endeavors.mp3",
+    "artist": "Cynic",
+    "title": "Endless Endeavors",
+    "album": "Portal Demo",
+    "year": "1995",
+    "duration": 235.734292
+  },
+  {
+    "filename": "Karma's Plight.mp3",
+    "artist": "Cynic",
+    "title": "Karma's Plight",
+    "album": "Portal Demo",
+    "year": "1995",
+    "duration": 319.566589
+  },
+  {
+    "filename": "Mirror Child.mp3",
+    "artist": "Cynic",
+    "title": "Mirror Child",
+    "album": "Portal Demo",
+    "year": "1995",
+    "duration": 236.262089
+  },
+  {
+    "filename": "Not The Same.mp3",
+    "artist": "Cynic",
+    "title": "Not The Same",
+    "album": "Portal Demo",
+    "year": "1995",
+    "duration": 262.071044
+  },
+  {
+    "filename": "Road To You.mp3",
+    "artist": "Cynic",
+    "title": "Road To You",
+    "album": "Portal Demo",
+    "year": 1995,
+    "duration": 302.7591836734694
+  },
+  {
+    "filename": "01. Empty Diary.mp3",
+    "artist": "Nomad Theory",
+    "title": "01. Empty Diary",
+    "album": "Pandora",
+    "year": 2012,
+    "duration": 374.88326530612244
+  },
+  {
+    "filename": "02. About the Rain.mp3",
+    "artist": "Nomad Theory",
+    "title": "02. About the Rain",
+    "album": "Pandora",
+    "year": 2012,
+    "duration": 339.4873469387755
+  },
+  {
+    "filename": "03. A time moral.mp3",
+    "artist": "Nomad Theory",
+    "title": "03. A time moral",
+    "album": "Pandora",
+    "year": 2012,
+    "duration": 330.5795918367347
+  },
+  {
+    "filename": "04. Pshychopathic Nicotine.mp3",
+    "artist": "Nomad Theory",
+    "title": "04. Pshychopathic Nicotine",
+    "album": "Pandora",
+    "year": "2012",
+    "duration": 305.08
+  },
+  {
+    "filename": "05. Disenchanted and Delusional.mp3",
+    "artist": "Nomad Theory",
+    "title": "05. Disenchanted and Delusional",
+    "album": "Pandora",
+    "year": 2012,
+    "duration": 376.81632653061223
+  },
+  {
+    "filename": "06. Footprints.mp3",
+    "artist": "Nomad Theory",
+    "title": "06. Footprints",
+    "album": "Pandora",
+    "year": 2012,
+    "duration": 408.6857142857143
+  },
+  {
+    "filename": "07. Something Else.mp3",
+    "artist": "Nomad Theory",
+    "title": "07. Something Else",
+    "album": "Pandora",
+    "year": 2012,
+    "duration": 334.0016326530612
+  },
+  {
+    "filename": "08. November Atmosphere.mp3",
+    "artist": "Nomad Theory",
+    "title": "08. November Atmosphere",
+    "album": "Pandora",
+    "year": "2012",
+    "duration": 218.56
+  },
+  {
+    "filename": "09. Invisible.mp3",
+    "artist": "Nomad Theory",
+    "title": "09. Invisible",
+    "album": "Pandora",
+    "year": 2012,
+    "duration": 261.9820408163265
+  },
+  {
+    "filename": "10. Answers.mp3",
+    "artist": "Nomad Theory",
+    "title": "10. Answers",
+    "album": "Pandora",
+    "year": 2012,
+    "duration": 344.6334693877551
+  },
+  {
+    "filename": "11. About the Rain (Acoustic Version).mp3",
+    "artist": "Nomad Theory",
+    "title": "11. About the Rain (Acoustic Version)",
+    "album": "Pandora",
+    "year": 2012,
+    "duration": 314.8538775510204
+  },
+  {
+    "filename": "Closure.mp3",
+    "artist": "Opeth",
+    "title": "Closure",
+    "album": "Damnation",
+    "year": 2003,
+    "duration": 315.6375510204082
+  },
+  {
+    "filename": "Death Whispered A Lullaby.mp3",
+    "artist": "Opeth",
+    "title": "Death Whispered A Lullaby",
+    "album": "Damnation",
+    "year": 2003,
+    "duration": 349.80571428571426
+  },
+  {
+    "filename": "Ending Credits.mp3",
+    "artist": "Opeth",
+    "title": "Ending Credits",
+    "album": "Damnation",
+    "year": 2003,
+    "duration": 219.35020408163265
+  },
+  {
+    "filename": "Hope Leaves.mp3",
+    "artist": "Opeth",
+    "title": "Hope Leaves",
+    "album": "Damnation",
+    "year": 2003,
+    "duration": 270.23673469387757
+  },
+  {
+    "filename": "In My Time Of Need.mp3",
+    "artist": "Opeth",
+    "title": "In My Time Of Need",
+    "album": "Damnation",
+    "year": 2003,
+    "duration": 349.80571428571426
+  },
+  {
+    "filename": "To Rid The Disease.mp3",
+    "artist": "Opeth",
+    "title": "To Rid The Disease",
+    "album": "Damnation",
+    "year": 2003,
+    "duration": 381.44
+  },
+  {
+    "filename": "Weakness.mp3",
+    "artist": "Opeth",
+    "title": "Weakness",
+    "album": "Damnation",
+    "year": 2003,
+    "duration": 248.89469387755102
+  },
+  {
+    "filename": "Windowpane.mp3",
+    "artist": "Opeth",
+    "title": "Windowpane",
+    "album": "Damnation",
+    "year": 2003,
+    "duration": 464.3265306122449
+  },
+  {
+    "filename": "A Great Day For Freedom.mp3",
+    "artist": "Pink Floyd",
+    "title": "A great day for freedom",
+    "album": "P.U.L.S.E. CD1",
+    "year": "1995",
+    "duration": 270.298071
+  },
+  {
+    "filename": "Another Brick In The Wall (Part Two).mp3",
+    "artist": "Pink Floyd",
+    "title": "Another brick in the wall (Part two)",
+    "album": "P.U.L.S.E. CD1",
+    "year": "1995",
+    "duration": 427.424644
+  },
+  {
+    "filename": "Astronomy Domine.mp3",
+    "artist": "Pink Floyd",
+    "title": "Astronomy Domine",
+    "album": "P.U.L.S.E. CD1",
+    "year": "1995",
+    "duration": 260.685071
+  },
+  {
+    "filename": "Coming Back To Life.mp3",
+    "artist": "Pink Floyd",
+    "title": "Coming back to life",
+    "album": "P.U.L.S.E. CD1",
+    "year": "1995",
+    "duration": 416.061357
+  },
+  {
+    "filename": "Hey You.mp3",
+    "artist": "Pink Floyd",
+    "title": "Hey you",
+    "album": "P.U.L.S.E. CD1",
+    "year": "1995",
+    "duration": 279.284214
+  },
+  {
+    "filename": "High Hopes.mp3",
+    "artist": "Pink Floyd",
+    "title": "High Hopes",
+    "album": "P.U.L.S.E. CD1",
+    "year": "1995",
+    "duration": 472.329144
+  },
+  {
+    "filename": "Keep Talking.mp3",
+    "artist": "Pink Floyd",
+    "title": "Keep talking",
+    "album": "P.U.L.S.E. CD1",
+    "year": "1995",
+    "duration": 413.031144
+  },
+  {
+    "filename": "Learning To Fly.mp3",
+    "artist": "Pink Floyd",
+    "title": "Learning to fly",
+    "album": "P.U.L.S.E. CD1",
+    "year": "1995",
+    "duration": 315.881789
+  },
+  {
+    "filename": "Shine On You Crazy Diamond.mp3",
+    "artist": "Pink Floyd",
+    "title": "Shine on you crazy diamond",
+    "album": "P.U.L.S.E. CD1",
+    "year": "1995",
+    "duration": 814.141357
+  },
+  {
+    "filename": "Sorrow.mp3",
+    "artist": "Pink Floyd",
+    "title": "Sorrow",
+    "album": "P.U.L.S.E. CD1",
+    "year": "1995",
+    "duration": 649.125857
+  },
+  {
+    "filename": "What Do You Want From Me.mp3",
+    "artist": "Pink Floyd",
+    "title": "What do you want from me",
+    "album": "P.U.L.S.E. CD1",
+    "year": "1995",
+    "duration": 249.426289
+  },
+  {
+    "filename": "Ocean Gypsy.mp3",
+    "artist": "Renaissance",
+    "title": "Ocean Gypsy",
+    "album": "Scheherazade And Other Stories",
+    "year": 1975,
+    "duration": 429.1134693877551
+  },
+  {
+    "filename": "Song Of Scheherazade.mp3",
+    "artist": "Renaissance",
+    "title": "Song Of Scheherazade",
+    "album": "Scheherazade And Other Stories",
+    "year": 1975,
+    "duration": 1479.7844897959183
+  },
+  {
+    "filename": "The Vultures Fly High.mp3",
+    "artist": "Renaissance",
+    "title": "The Vultures Fly High",
+    "album": "Scheherazade And Other Stories",
+    "year": 1975,
+    "duration": 188.16
+  },
+  {
+    "filename": "Trip To The Fair.mp3",
+    "artist": "Renaissance",
+    "title": "Trip To The Fair",
+    "album": "Scheherazade And Other Stories",
+    "year": "1975",
+    "duration": 654.8455
+  }
+]

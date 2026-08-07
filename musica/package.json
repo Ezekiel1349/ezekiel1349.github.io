@@ -1,0 +1,13 @@
+{
+  "name": "music-player",
+  "version": "1.0.0",
+  "description": "Generador de playlist con metadatos ID3",
+  "main": "generate-playlist.js",
+  "scripts": {
+    "generate": "node generate-playlist-ffprobe.js",
+    "generate-basic": "node generate-playlist.js"
+  },
+  "dependencies": {
+    "music-metadata": "^8.1.4"
+  }
+}
